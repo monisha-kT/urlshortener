@@ -32,3 +32,6 @@ FRONT PAGE!..
 RESPONSE PAGE !..
 ![image](https://github.com/user-attachments/assets/99bc65eb-e229-484d-8b0b-92918d13ad9a)
 
+WHEN I PRESS ENTER WITHOUT ENTERING THE URL IT SHOWS ERROR !
+![image](https://github.com/user-attachments/assets/8cc19d30-41d0-4056-b03b-c687d0838b94)
+
