@@ -1,42 +1,80 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+.url-shortener {
+  font-family: "Times New Roman", Times, serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: #f4f4f4;
   text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
+  color:black
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
+input {
+  width: 80%;
+  max-width: 400px;
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  font-family: "Times New Roman", Times, serif;
+  background-color: white;
+  color:black;
+  
+}
+
+button {
+  padding: 10px 15px;
+  font-size: 16px;
+  font-family: "Times New Roman", Times, serif;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+ margin-left: 10px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+p {
+  margin-top: 15px;
+  font-size: 18px;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+  input {
+    width: 90%;
   }
-  to {
-    transform: rotate(360deg);
+
+  button {
+    width: 90%;
   }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
 }
